@@ -1,0 +1,19 @@
+#!/bin/bash
+
+#SBATCH --job-name=cbert
+#SBATCH --partition=test
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=1
+#SBATCH --mem=3000M
+
+module load languages/anaconda3/2020.02-tflow-2.2.0
+
+cd $SLURM_SUBMIT_DIR
+
+python aug.py 5
+python aug.py 6
+python aug.py 7
+python aug.py 8
+python aug.py 9
+python aug.py 10
+python aug.py 11

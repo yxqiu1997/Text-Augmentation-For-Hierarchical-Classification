@@ -1,0 +1,12 @@
+#!/bin/bash -login
+#SBATCH --nodes=1
+#SBATCH --gres=gpu:2
+#SBATCH --partition=gpu
+#SBATCH --job-name=gpujob
+#SBATCH --mem=8000M
+
+module load languages/anaconda3/2020.02-tflow-2.2.0
+
+cd $SLURM_SUBMIT_DIR
+
+python en2de.py 7
