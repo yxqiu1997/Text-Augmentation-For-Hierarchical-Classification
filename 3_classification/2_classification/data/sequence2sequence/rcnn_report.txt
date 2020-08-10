@@ -1,0 +1,96 @@
+
+***** macro: *****
+ — f1: 0.903098 — precision: 0.903064 — recall: 0.903421 - accuracy: 0.903421
+
+***** micro: *****
+ — f1: 0.903421 — precision: 0.903421 — recall: 0.903421 - accuracy: 0.903421
+
+Epoch 00001: val_f1 improved from -inf to 0.90342, saving model to ./checkpoints/rcnnvariant/weights.01-0.9034.hdf5
+
+***** macro: *****
+ — f1: 0.904378 — precision: 0.904808 — recall: 0.904605 - accuracy: 0.904605
+
+***** micro: *****
+ — f1: 0.904605 — precision: 0.904605 — recall: 0.904605 - accuracy: 0.904605
+
+Epoch 00002: val_f1 improved from 0.90342 to 0.90461, saving model to ./checkpoints/rcnnvariant/weights.02-0.9046.hdf5
+
+***** macro: *****
+ — f1: 0.901953 — precision: 0.902442 — recall: 0.902105 - accuracy: 0.902105
+
+***** micro: *****
+ — f1: 0.902105 — precision: 0.902105 — recall: 0.902105 - accuracy: 0.902105
+
+Epoch 00003: val_f1 did not improve from 0.90461
+
+***** macro: *****
+ — f1: 0.896248 — precision: 0.898004 — recall: 0.896447 - accuracy: 0.896447
+
+***** micro: *****
+ — f1: 0.896447 — precision: 0.896447 — recall: 0.896447 - accuracy: 0.896447
+
+Epoch 00004: val_f1 did not improve from 0.90461
+
+***** macro: *****
+ — f1: 0.899066 — precision: 0.898948 — recall: 0.899474 - accuracy: 0.899474
+
+***** micro: *****
+ — f1: 0.899474 — precision: 0.899474 — recall: 0.899474 - accuracy: 0.899474
+
+Epoch 00005: val_f1 did not improve from 0.90461
+
+***** macro: *****
+ — f1: 0.891078 — precision: 0.891147 — recall: 0.891711 - accuracy: 0.891711
+
+***** micro: *****
+ — f1: 0.891711 — precision: 0.891711 — recall: 0.891711 - accuracy: 0.891711
+
+Epoch 00006: val_f1 did not improve from 0.90461
+
+***** macro: *****
+ — f1: 0.896074 — precision: 0.896296 — recall: 0.896447 - accuracy: 0.896447
+
+***** micro: *****
+ — f1: 0.896447 — precision: 0.896447 — recall: 0.896447 - accuracy: 0.896447
+
+Epoch 00007: val_f1 did not improve from 0.90461
+
+***** macro: *****
+ — f1: 0.894540 — precision: 0.894768 — recall: 0.894605 - accuracy: 0.894605
+
+***** micro: *****
+ — f1: 0.894605 — precision: 0.894605 — recall: 0.894605 - accuracy: 0.894605
+
+Epoch 00008: val_f1 did not improve from 0.90461
+
+***** macro: *****
+ — f1: 0.889868 — precision: 0.891049 — recall: 0.890132 - accuracy: 0.890132
+
+***** micro: *****
+ — f1: 0.890132 — precision: 0.890132 — recall: 0.890132 - accuracy: 0.890132
+
+Epoch 00009: val_f1 did not improve from 0.90461
+
+***** macro: *****
+ — f1: 0.892478 — precision: 0.893314 — recall: 0.892632 - accuracy: 0.892632
+
+***** micro: *****
+ — f1: 0.892632 — precision: 0.892632 — recall: 0.892632 - accuracy: 0.892632
+
+Epoch 00010: val_f1 did not improve from 0.90461
+
+***** macro: *****
+ — f1: 0.887120 — precision: 0.887308 — recall: 0.887237 - accuracy: 0.887237
+
+***** micro: *****
+ — f1: 0.887237 — precision: 0.887237 — recall: 0.887237 - accuracy: 0.887237
+
+Epoch 00011: val_f1 did not improve from 0.90461
+
+***** macro: *****
+ — f1: 0.887795 — precision: 0.888282 — recall: 0.888026 - accuracy: 0.888026
+
+***** micro: *****
+ — f1: 0.888026 — precision: 0.888026 — recall: 0.888026 - accuracy: 0.888026
+
+Epoch 00012: val_f1 did not improve from 0.90461

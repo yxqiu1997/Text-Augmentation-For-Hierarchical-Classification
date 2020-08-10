@@ -1,0 +1,88 @@
+
+***** macro: *****
+ — f1: 0.899865 — precision: 0.901049 — recall: 0.900000 - accuracy: 0.900000
+
+***** micro: *****
+ — f1: 0.900000 — precision: 0.900000 — recall: 0.900000 - accuracy: 0.900000
+
+Epoch 00001: val_f1 improved from -inf to 0.90000, saving model to ./checkpoints/rcnnvariant/weights.01-0.9000.hdf5
+
+***** macro: *****
+ — f1: 0.893524 — precision: 0.894621 — recall: 0.893816 - accuracy: 0.893816
+
+***** micro: *****
+ — f1: 0.893816 — precision: 0.893816 — recall: 0.893816 - accuracy: 0.893816
+
+Epoch 00002: val_f1 did not improve from 0.90000
+
+***** macro: *****
+ — f1: 0.890196 — precision: 0.890075 — recall: 0.890658 - accuracy: 0.890658
+
+***** micro: *****
+ — f1: 0.890658 — precision: 0.890658 — recall: 0.890658 - accuracy: 0.890658
+
+Epoch 00003: val_f1 did not improve from 0.90000
+
+***** macro: *****
+ — f1: 0.888376 — precision: 0.889668 — recall: 0.888684 - accuracy: 0.888684
+
+***** micro: *****
+ — f1: 0.888684 — precision: 0.888684 — recall: 0.888684 - accuracy: 0.888684
+
+Epoch 00004: val_f1 did not improve from 0.90000
+
+***** macro: *****
+ — f1: 0.883808 — precision: 0.884392 — recall: 0.883947 - accuracy: 0.883947
+
+***** micro: *****
+ — f1: 0.883947 — precision: 0.883947 — recall: 0.883947 - accuracy: 0.883947
+
+Epoch 00005: val_f1 did not improve from 0.90000
+
+***** macro: *****
+ — f1: 0.890170 — precision: 0.890310 — recall: 0.890263 - accuracy: 0.890263
+
+***** micro: *****
+ — f1: 0.890263 — precision: 0.890263 — recall: 0.890263 - accuracy: 0.890263
+
+Epoch 00006: val_f1 did not improve from 0.90000
+
+***** macro: *****
+ — f1: 0.887816 — precision: 0.887919 — recall: 0.887895 - accuracy: 0.887895
+
+***** micro: *****
+ — f1: 0.887895 — precision: 0.887895 — recall: 0.887895 - accuracy: 0.887895
+
+Epoch 00007: val_f1 did not improve from 0.90000
+
+***** macro: *****
+ — f1: 0.890349 — precision: 0.890366 — recall: 0.890658 - accuracy: 0.890658
+
+***** micro: *****
+ — f1: 0.890658 — precision: 0.890658 — recall: 0.890658 - accuracy: 0.890658
+
+Epoch 00008: val_f1 did not improve from 0.90000
+
+***** macro: *****
+ — f1: 0.890715 — precision: 0.890537 — recall: 0.891053 - accuracy: 0.891053
+
+***** micro: *****
+ — f1: 0.891053 — precision: 0.891053 — recall: 0.891053 - accuracy: 0.891053
+
+Epoch 00009: val_f1 did not improve from 0.90000
+
+***** macro: *****
+ — f1: 0.886643 — precision: 0.886520 — recall: 0.887105 - accuracy: 0.887105
+
+***** micro: *****
+ — f1: 0.887105 — precision: 0.887105 — recall: 0.887105 - accuracy: 0.887105
+
+Epoch 00010: val_f1 did not improve from 0.90000
+
+***** macro: *****
+ — f1: 0.888434 — precision: 0.888790 — recall: 0.888553 - accuracy: 0.888553
+
+***** micro: *****
+ — f1: 0.888553 — precision: 0.888553 — recall: 0.888553 - accuracy: 0.888553
+
+Epoch 00011: val_f1 did not improve from 0.90000

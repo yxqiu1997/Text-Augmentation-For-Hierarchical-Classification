@@ -1,0 +1,120 @@
+
+***** macro: *****
+ — f1: 0.900456 — precision: 0.900894 — recall: 0.900789 - accuracy: 0.900789
+
+***** micro: *****
+ — f1: 0.900789 — precision: 0.900789 — recall: 0.900789 - accuracy: 0.900789
+
+Epoch 00001: val_f1 improved from -inf to 0.90079, saving model to ./checkpoints/textbirnn/weights.01-0.9008.hdf5
+
+***** macro: *****
+ — f1: 0.905098 — precision: 0.905073 — recall: 0.905395 - accuracy: 0.905395
+
+***** micro: *****
+ — f1: 0.905395 — precision: 0.905395 — recall: 0.905395 - accuracy: 0.905395
+
+Epoch 00002: val_f1 improved from 0.90079 to 0.90539, saving model to ./checkpoints/textbirnn/weights.02-0.9054.hdf5
+
+***** macro: *****
+ — f1: 0.908262 — precision: 0.908404 — recall: 0.908553 - accuracy: 0.908553
+
+***** micro: *****
+ — f1: 0.908553 — precision: 0.908553 — recall: 0.908553 - accuracy: 0.908553
+
+Epoch 00003: val_f1 improved from 0.90539 to 0.90855, saving model to ./checkpoints/textbirnn/weights.03-0.9086.hdf5
+
+***** macro: *****
+ — f1: 0.908405 — precision: 0.908611 — recall: 0.908553 - accuracy: 0.908553
+
+***** micro: *****
+ — f1: 0.908553 — precision: 0.908553 — recall: 0.908553 - accuracy: 0.908553
+
+Epoch 00004: val_f1 did not improve from 0.90855
+
+***** macro: *****
+ — f1: 0.909021 — precision: 0.909154 — recall: 0.909211 - accuracy: 0.909211
+
+***** micro: *****
+ — f1: 0.909211 — precision: 0.909211 — recall: 0.909211 - accuracy: 0.909211
+
+Epoch 00005: val_f1 improved from 0.90855 to 0.90921, saving model to ./checkpoints/textbirnn/weights.05-0.9092.hdf5
+
+***** macro: *****
+ — f1: 0.904515 — precision: 0.904489 — recall: 0.904737 - accuracy: 0.904737
+
+***** micro: *****
+ — f1: 0.904737 — precision: 0.904737 — recall: 0.904737 - accuracy: 0.904737
+
+Epoch 00006: val_f1 did not improve from 0.90921
+
+***** macro: *****
+ — f1: 0.903476 — precision: 0.903665 — recall: 0.903684 - accuracy: 0.903684
+
+***** micro: *****
+ — f1: 0.903684 — precision: 0.903684 — recall: 0.903684 - accuracy: 0.903684
+
+Epoch 00007: val_f1 did not improve from 0.90921
+
+***** macro: *****
+ — f1: 0.899220 — precision: 0.899241 — recall: 0.899342 - accuracy: 0.899342
+
+***** micro: *****
+ — f1: 0.899342 — precision: 0.899342 — recall: 0.899342 - accuracy: 0.899342
+
+Epoch 00008: val_f1 did not improve from 0.90921
+
+***** macro: *****
+ — f1: 0.896942 — precision: 0.896875 — recall: 0.897105 - accuracy: 0.897105
+
+***** micro: *****
+ — f1: 0.897105 — precision: 0.897105 — recall: 0.897105 - accuracy: 0.897105
+
+Epoch 00009: val_f1 did not improve from 0.90921
+
+***** macro: *****
+ — f1: 0.894410 — precision: 0.894441 — recall: 0.894605 - accuracy: 0.894605
+
+***** micro: *****
+ — f1: 0.894605 — precision: 0.894605 — recall: 0.894605 - accuracy: 0.894605
+
+Epoch 00010: val_f1 did not improve from 0.90921
+
+***** macro: *****
+ — f1: 0.895018 — precision: 0.895184 — recall: 0.895000 - accuracy: 0.895000
+
+***** micro: *****
+ — f1: 0.895000 — precision: 0.895000 — recall: 0.895000 - accuracy: 0.895000
+
+Epoch 00011: val_f1 did not improve from 0.90921
+
+***** macro: *****
+ — f1: 0.890206 — precision: 0.890300 — recall: 0.890263 - accuracy: 0.890263
+
+***** micro: *****
+ — f1: 0.890263 — precision: 0.890263 — recall: 0.890263 - accuracy: 0.890263
+
+Epoch 00012: val_f1 did not improve from 0.90921
+
+***** macro: *****
+ — f1: 0.887883 — precision: 0.887803 — recall: 0.888158 - accuracy: 0.888158
+
+***** micro: *****
+ — f1: 0.888158 — precision: 0.888158 — recall: 0.888158 - accuracy: 0.888158
+
+Epoch 00013: val_f1 did not improve from 0.90921
+
+***** macro: *****
+ — f1: 0.891233 — precision: 0.891122 — recall: 0.891447 - accuracy: 0.891447
+
+***** micro: *****
+ — f1: 0.891447 — precision: 0.891447 — recall: 0.891447 - accuracy: 0.891447
+
+Epoch 00014: val_f1 did not improve from 0.90921
+
+***** macro: *****
+ — f1: 0.893979 — precision: 0.894018 — recall: 0.894211 - accuracy: 0.894211
+
+***** micro: *****
+ — f1: 0.894211 — precision: 0.894211 — recall: 0.894211 - accuracy: 0.894211
+
+Epoch 00015: val_f1 did not improve from 0.90921
