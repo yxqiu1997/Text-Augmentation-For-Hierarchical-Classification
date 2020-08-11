@@ -2,7 +2,7 @@
 
 <a name="_overview"></a>
 
-# Navigation
+## Navigation
 The whole project can be divided into four parts:
 
 * [Cleaning and preprocessing of raw data](1_data_preprocessing/README.md)
