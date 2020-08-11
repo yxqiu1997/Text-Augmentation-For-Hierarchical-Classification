@@ -93,9 +93,9 @@ Augmentation Technique | Classifier | Macro F1-score |
 
 ### Back-translation Quality
 
-No golden English-German and German-English references are provided in this project because of the lack of human-language experts. The whole evaluation process has to rely on the feature of back translation technique. In other words, the back-translated document must be compared with the source document. Suppose there is a workflow like this: English file A --> German file B --> English file C, then the file C will be evaluated in the case where the file A is the reference. This limitation inevitably leads to low scores on traditional NMT evaluation metrics. A new evaluation model is proposed to improve the situation.
+No golden English-German and German-English references are provided in this project because of the lack of human-language experts. The whole evaluation process has to rely on the feature of back translation technique. In other words, the back-translated document must be compared with the source document. Suppose there is a workflow like this: English file A --> German file B --> English file C, then the file C will be evaluated in the case where the file A is the reference. This limitation inevitably leads to low scores on traditional NMT evaluation metrics. A new evaluation model (BERT + Bi-LSTM) is proposed to improve the situation.
 
-| Translation Technique | BLEU | METEOR | Rouge-L | CIDEr | New Model |
+| Translation Technique | BLEU | METEOR | Rouge-L | CIDEr | BERT + Bi-LSTM |
 | :----: | :----: | :----: | :----: | :----: | :----: | 
 | Sequence2Sequence Model | 0.1273 | 0.2114 | 0.2703 | 1.0208 | NULL |
 | T5 Model | 0.1613 | 0.2164 | 0.3850 | 1.0552 | NULL |
@@ -108,5 +108,5 @@ Pearson correlation coefficient is used to evaluate the performance of the propo
 | :----: | :----: |
 | QuEst++ | 0.397 |
 | PredictorEstimator Ensemble | 0.6954 |
-| New Model | NULL |
+| BERT + Bi-LSTM | NULL |
 
