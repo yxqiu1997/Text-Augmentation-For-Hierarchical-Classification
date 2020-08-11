@@ -84,7 +84,7 @@ Augmentation Technique | Classifier | Macro F1-score |
 | GPT-2 Model | Fasttext Model | 0.90461 |
 | XLNet Model | Fasttext Model & Bi-RNN | 0.90618 |
 | Sequence2Sequence Model | Fasttext Model | 0.91000 |
-| Tranformer Model | CNN | 0.90816 |
+| Transformer Model | CNN | 0.90816 |
 | T5 Model | CNN | 0.90876 |
 
 
