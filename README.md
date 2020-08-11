@@ -90,12 +90,15 @@ Augmentation Technique | Classifier | Macro F1-score |
 
 No golden English-German and German-English references are provided in this project because of the lack of human-language experts. The whole evaluation process has to rely on the feature of back translation technique. In other words, the back-translated document must be compared with the source document. Suppose there is a workflow like this: English file A --> German file B --> English file C, then the file C will be evaluated in the case where the file A is the reference. This limitation inevitably leads to low scores on traditional NMT evaluation metrics. A new evaluation model is proposed to improve the situation.
 
+| Translation Technique | BLEU | METEOR | Rouge-L | CIDEr | New Model |
+| Sequence2Sequence Model | 0.1273 | 0.2114 | 0.2703 | 1.0208 | NULL |
+| T5 Model | 0.1613 | 0.2164 | 0.3850 | 1.0552 | NULL |
+| Transformer Model | 0.5552 | 0.4967 | 0.5765 | 3.3353 | NULL |
 
-Evaluated by standard NMT evaluation metrics:
 
-| Translation Technique | BLEU | METEOR | Rouge-L | CIDEr |
-| Sequence2Sequence Model | 0.1273 | 0.2114 | 0.2703 | 1.0208 |
-| T5 Model | 0.1613 | 0.2164 | 0.3850 | 1.0552 |
-| Transformer Model | 0.5552 | 0.4967 | 0.5765 | 3.3353 |
-
+Pearson correlation coefficient is used to evaluate the performance of the proposed model:
+| Model | Pearson's r |
+| QuEst++ | 0.397 |
+| PredictorEstimator Ensemble | 0.6954 |
+| New Model | NULL |
 
