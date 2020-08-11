@@ -5,10 +5,10 @@
 ## Navigation
 The whole project can be divided into four parts:
 
-* [Cleaning and preprocessing of raw data](1_data_preprocessing/README.md)
-* [Text augmentation](2_text_augmentation/README.md)
-* [Hierarchical classification](3_hierarchical_classification/README.md)
-* [Evaluation of augmentation quality](4_quality_evaluation/README.md)
+* Cleaning and preprocessing of raw data
+* [Text augmentation](#_best_augment)
+* [Hierarchical classification](#_best_classify)
+* [Evaluation of augmentation quality](#_best_evaluate)
 
 
 <a name="_note"></a>
@@ -20,6 +20,8 @@ Due to the limitation of the file uploading policy of Github, necessary files wh
 <a name="_best_result"></a>
 
 ## Best Result
+
+<a name="_best_augment"></a>
 
 ### Augmentation Technique
 
@@ -35,8 +37,8 @@ The table below lists the highest Macro F1-score (based on the classifier perfor
 | RCNN | 0.90816 | T5 Model |
 | HAN | 0.90750 | T5 Model & Word Deletion |
 
-Detailed results can be seen at: 
 
+<a name="_best_classify"></a>
 
 ### Classifier Performance
 The table below lists the most suitable classifier(s) for different augmentation techniques (based on Macro F1-score).
@@ -85,6 +87,9 @@ Augmentation Technique | Classifier | Macro F1-score |
 | Tranformer Model | CNN | 0.90816 |
 | T5 Model | CNN | 0.90876 |
 
+
+
+<a name="_best_evaluate"></a>
 
 ### Back-translation Quality
 
