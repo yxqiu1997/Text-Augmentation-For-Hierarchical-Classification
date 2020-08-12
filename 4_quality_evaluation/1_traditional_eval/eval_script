@@ -1,0 +1,23 @@
+#!/bin/bash -login
+#SBATCH --nodes=1
+#SBATCH --gres=gpu:2
+#SBATCH --partition=gpu
+#SBATCH --job-name=eval-transformer
+#SBATCH --mem=8000M
+
+module load languages/anaconda3/2020.02-tflow-2.2.0
+
+cd $SLURM_SUBMIT_DIR
+
+pip install git+https://github.com/Maluuba/nlg-eval.git@master
+
+nlp-eval --setup
+
+nlg-eval --hypothesis=sequence2sequence/target.txt \
+         --references=sequence2sequence/source.txt
+
+nlg-eval --hypothesis=t5/target.txt \
+         --references=t5/source.txt
+
+nlg-eval --hypothesis=transformer/target.txt \
+         --references=transformer/source.txt
