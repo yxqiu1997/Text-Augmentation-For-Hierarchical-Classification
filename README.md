@@ -47,7 +47,7 @@ Without augmentation:
 
 Augmentation Technique | Classifier | Macro F1-score |
 | :----: | :----: | :----: | 
-| NULL | CNN | 0.90789 |
+| N/A | CNN | 0.90789 |
 
 
 Augmented at character level:
@@ -93,20 +93,29 @@ Augmentation Technique | Classifier | Macro F1-score |
 
 ### Back-translation Quality
 
-No golden English-German and German-English references are provided in this project because of the lack of human-language experts. The whole evaluation process has to rely on the feature of back translation technique. In other words, the back-translated document must be compared with the source document. Suppose there is a workflow like this: English file A --> German file B --> English file C, then the file C will be evaluated in the case where the file A is the reference. This limitation inevitably leads to low scores on traditional NMT evaluation metrics. A new evaluation model (BERT + Bi-LSTM) is proposed to improve the situation.
+No golden English-German and German-English references are provided in this project because of the lack of human-language experts. The whole evaluation process has to rely on the feature of back translation technique. In other words, the back-translated document must be compared with the source document. Suppose there is a workflow like this: English file A --> German file B --> English file C, then the file C will be evaluated in the case where the file A is the reference. This limitation inevitably leads to low scores on traditional NMT evaluation metrics. 
 
-| Translation Technique | BLEU | METEOR | Rouge-L | CIDEr | BERT + Bi-LSTM |
+| Translation Technique | BLEU | METEOR | Rouge-L | CIDEr |
 | :----: | :----: | :----: | :----: | :----: | :----: | 
-| Sequence2Sequence Model | 0.1273 | 0.2114 | 0.2703 | 1.0208 | NULL |
-| T5 Model | 0.1613 | 0.2164 | 0.3850 | 1.0552 | NULL |
-| Transformer Model | 0.5552 | 0.4967 | 0.5765 | 3.3353 | NULL |
+| Sequence2Sequence Model | 0.1273 | 0.2114 | 0.2703 | 1.0208 |
+| T5 Model | 0.1613 | 0.2164 | 0.3850 | 1.0552 |
+| Transformer Model | 0.5552 | 0.4967 | 0.5765 | 3.3353 | 
 
 
-Pearson correlation coefficient is used to evaluate the performance of the proposed model:
+To mitigate the advert impact, a new model (Pre-trained BERT + Bi-LSTM) is proposed to evaluate the translation quality. There are two stages in this part of work. Firstly, evaluate this new model on the data set of WMT17 and compare it with baseline model (QuEst++). Pearson correlation coefficient is used as the main metric. 
+<!-- Pearson correlation coefficient, mean absolute error and mean squared error -->
 
-| Model | Pearson's r |
+| NMT Evaluation Model | Pearson's r | MAE | RMSE |
+| :----: | :----: | :----: | :----: |
+| QuEst++ | 0.397 | 0.136 | 0.175 |
+| BERT + Bi-LSTM | N/A | N/A | N/A |
+
+
+Secondly, feed texts augmented by back-translation techniques in this project into the new model and get the final score:
+
+| Translation Technique | Score |
 | :----: | :----: |
-| QuEst++ | 0.397 |
-| PredictorEstimator Ensemble | 0.6954 |
-| BERT + Bi-LSTM | NULL |
+| Sequence2Sequence Model | N/A |
+| T5 Model | N/A |
+| Transformer Model | N/A |
 
